@@ -7,7 +7,7 @@ import battlecode.common.*;
  */
 public abstract class RobotBehaviour implements Behaviour {
 
-    protected RobotController rc;
+    protected final RobotController rc;
     protected boolean done;
 
     public RobotBehaviour(RobotController rc) {

@@ -7,7 +7,7 @@ import player001.fsm.State;
  * Created by lucas on 13/07/17.
  */
 public class IsDonePredicate implements Predicate {
-    private Behaviour behaviour;
+    private final Behaviour behaviour;
 
     public IsDonePredicate(State stateBehaviour) {
         this.behaviour = stateBehaviour.getBehaviour();
