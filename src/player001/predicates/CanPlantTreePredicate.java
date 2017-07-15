@@ -6,10 +6,10 @@ import battlecode.common.RobotController;
 /**
  * Created by lucas on 14/07/17.
  */
-public class CanPlantTree implements Predicate {
+public class CanPlantTreePredicate implements Predicate {
     private final RobotController rc;
 
-    public CanPlantTree(RobotController rc) {
+    public CanPlantTreePredicate(RobotController rc) {
         this.rc = rc;
     }
 
